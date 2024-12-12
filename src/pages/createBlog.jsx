@@ -29,7 +29,7 @@ const RenderCar = () => {
     return (
         <div className="hidden md:block relative w-full h-full overflow-hidden">
             <img 
-                src="src/assets/bk.jpg" 
+                src="/assets/images/bk.jpg" 
                 alt="Descriptive Alt Text" 
                 className="w-full h-full object-cover"
             />
