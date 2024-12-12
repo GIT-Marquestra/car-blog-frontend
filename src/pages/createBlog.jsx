@@ -13,7 +13,7 @@ import backend from "../backendString.js"
 const CreateBlog = () => {
     return (
         <div className="relative flex justify-center items-center">
-            <RenderCar />
+            {/* <RenderCar /> */}
             <div className="absolute max-w-2xl mx-auto bg-white/30 backdrop-blur-lg backdrop-saturate-150 rounded-3xl shadow-2xl p-8 border border-white/20">
                 <h1 className="text-3xl font-extrabold text-center text-white mb-6">
                     Create Your Blog Post
