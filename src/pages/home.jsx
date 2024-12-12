@@ -146,7 +146,7 @@ function RenderCar(){
   function toggle(){
     setIsTog(true)
   }
-  setBcImg("src/assets/pexels-a2pro-6729275.jpg");
+  setBcImg("src/assets/images/pexels-a2pro-6729275.jpg");
 
   return (
     <div>
@@ -154,7 +154,7 @@ function RenderCar(){
       <div
         className="hero min-h-screen"
         style={{
-          backgroundImage: `url("https://ibb.co/Yffzdbd")`,
+          backgroundImage: `url(${bcImg})`,
         }}>
         <div className="hero-overlay  bg-opacity-60"></div>
         <div className="hero-content text-neutral-content text-center">
