@@ -146,7 +146,7 @@ function RenderCar(){
   function toggle(){
     setIsTog(true)
   }
-  setBcImg("src/assets/images/pexels-a2pro-6729275.jpg");
+  setBcImg("./src/assets/images/pexels-a2pro-6729275.jpg");
 
   return (
     <div>
