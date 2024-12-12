@@ -11,38 +11,22 @@ import { useTheme } from "../storage/useThemeStore.js";
 import backend from "../backendString.js"
 
 
-
 const ProfileUp = () => {
     return (
-        <div>
-            <div className="relative flex justify-center items-center">
-                <RenderCar />
+        <div className="h-screen flex justify-center items-center">
+            <div className="relative w-full h-full flex justify-center items-center">
                 <div className="absolute max-w-2xl mx-auto bg-white/30 backdrop-blur-lg backdrop-saturate-150 rounded-3xl shadow-2xl p-8 border border-white/20">
                     <h1 className="text-3xl font-extrabold text-center text-white mb-6">
                         Update Your Credentials
                     </h1>
                     <Form />
                 </div>
-                    {/* <div className="absolute">
-                        <ThemeSelector />
-                    </div> */}
             </div>
-                <ToastContainer />
+            <ToastContainer />
         </div>
     );
 };
 
-const RenderCar = () => {
-    return (
-        <div className="hidden md:block relative w-full h-full overflow-hidden">
-            <img 
-                src="src/assets/bk.jpg" 
-                alt="Descriptive Alt Text" 
-                className="w-full h-full object-cover"
-            />
-        </div>
-    )
-}
 
 const Form = () => {
     const [upformData, setupFormData] = useRecoilState(upformState);
